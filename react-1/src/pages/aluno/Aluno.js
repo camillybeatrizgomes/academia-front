@@ -76,7 +76,7 @@ import {mensagemErro, notifyError, notifySuccess } from '../util/util'
         return (
             <>
         <div class="box-aluno">
-        <div class="img-box">
+        <div class="img-box-aluno">
             <img src={image}/>
         </div>
         <div class="form-cadastro">

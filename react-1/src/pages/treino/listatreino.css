@@ -43,6 +43,12 @@ button {
     margin-top: 10%;
 }
 
+hr {
+    width: 1500px;
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+}
+
 /* MODAL */
 
 .modal-lista {
@@ -70,6 +76,9 @@ button {
 @media (max-width: 720px){
     table {
         width: 95vw;
+    }
+    hr {
+        margin-left: 20px;
     }
 
 }

@@ -73,7 +73,7 @@ function Instrutor (){
     return (
         <>
             <div class="box-instrutor">
-        <div class="img-box">
+        <div class="img-box-instrutor">
             <img src={image}/>
         </div>
         <div class="form-box-instrutor">

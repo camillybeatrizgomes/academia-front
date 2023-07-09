@@ -18,7 +18,7 @@
   cursor: pointer;
   bottom: 0;
   right: 0;
-  top: -10px;
+  top: -20px;
   left: 480px;
   position: fixed;
 }
@@ -28,19 +28,18 @@
 .sidebar{
     background-color: #0000007a; 
     position: absolute;
-    top: 15%;
+    top: 14%;
     display: block;
     margin: auto;
     list-style: none;
     text-align: center;
-    width: 100%;
+    width: 120vw;
     justify-content: center;
     color: #fff;
 }
 
 li a {
   justify-content: center;
-  display: block;
   width: auto;
 }
 

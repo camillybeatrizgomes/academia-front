@@ -20,6 +20,7 @@ function ListaTreino(){
        <div>
             <header>
                 <h2>Sua Tabela de Treino</h2>
+                <hr></hr>
             </header>
             <table>
                 <thead>

@@ -61,7 +61,7 @@ top: -5px;
 }
 
 .inputbox input {
-  width: 100%;
+  width: 100vw;
   height: 50px;
   background-color: transparent;
   border: none;

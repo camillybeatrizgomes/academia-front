@@ -6,16 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    overflow-x: hidden;
-}
-
-#select{
-    display: flex;
-    margin-left: -5px;
-    margin-bottom: 20px;
-}
-
 .w50{
     width: 50%;
     float: left;
@@ -23,40 +13,35 @@ body{
 }
 .box-aluno{
     display: flex;
-    width: 90%;
-    justify-content: center;
     margin: auto;
+    justify-content: center;
+    width: 92%;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
-.img-box{
+.img-box-aluno{
     background-color: rgba(255, 255, 255, 0.568);
-    width: 50%;
-    height: 130vh;
+    width: 40%;
+    height: 150vh;
     display: flex;
     align-items: center;
     padding: 20px;
     border-radius: 20px  0 0 20px;
 }
-.img-box img{
+.img-box-aluno img{
     width: 100%;
 }
 .form-cadastro{
     background-color: rgba(255, 255, 255, 0.637);
     backdrop-filter: blur(40px);
     padding: 30px 40px;
-    height: 130vh;
     width: 50%;
+    height: 150vh;
     border-radius: 0 20px 20px 0;
-    margin: auto;
-    justify-content: center;
 }
-
 .form-cadastro h2{
-    margin-top: 20px;
-    margin-bottom: 20px;   
+    font-size: 30px;
 }
-
 .form-cadastro p{
     font-weight: bold;
     color: #3D3D3D;
@@ -65,7 +50,9 @@ body{
     color: blue;
     text-decoration: none;
 }
-
+.form-cadastro form{
+    margin: 20px 0;
+}
 form .input-cadastro{
     margin-bottom: 15px;
 }
@@ -90,40 +77,38 @@ form .input-cadastro input{
 form .input-cadastro input:focus{
     border-color: #000;
 }
+#select{
+    display: flex;
+    margin-left: -5px;
+}
+#select label {
+    margin-right: 8px;
+}
+#pagamento {
+    margin-left: 10px;
+}
+.input-option {
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+}
 form .input-cadastro button{
-    width: 80%;
+    width: 100%;
     height: 47px;
-    background: #0162ff;
+    background: #000;
     border-radius: 20px;
     outline: none;
     border: none;
-    margin-top: 5px;
+    margin-top: 15px;
     color: white;
     cursor: pointer;
     font-size: 16px;
 }
-
-#pagamento{
-    margin-left: 20px;
-}
-
-form .input-cadastro button:hover{
-    background-color: #051cb2;
-    transition: 0.3s all;
-}
-
-select{
-    display: flex;
-    margin-left: 10px;
-}
-
-
 @media (max-width:945px) {
-    .img-box{
+    .img-box-aluno{
         display: none;
     }
     .box-aluno{
-        width: 700px;
+        width: 500px;
         height: 120vh;
     }
     .form-cadastro{
@@ -136,7 +121,7 @@ select{
     .form-cadastro {
         width: 100%;
         margin: 0 auto;
-        height: 130vh;
+        height: 150vh;
 
     }
 
@@ -145,11 +130,4 @@ select{
         padding: 0;
     }
 
-}
-
-@media (max-width: 710px){
-    .input-option select{
-        display: inline-block;
-        padding: 0;
-    }
 }
