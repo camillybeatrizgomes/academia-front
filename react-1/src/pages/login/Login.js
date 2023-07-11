@@ -19,7 +19,7 @@ function Login() {
                         <label for="">Password</label>
                     </div>
                    
-                    <button>Entrar</button>
+                    <button style={{width:'80%'}}>Entrar</button>
                     <div class="register">
                         <p>Não tem conta? <a href="/cadastro-aluno">Crie sua conta</a></p>
                     </div>
